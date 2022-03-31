@@ -4,7 +4,7 @@ A simple and lightwight Restful API using Golang with Fiber Framework and JWT au
 
 ## Description
 
-This project psimulate some common atm transactions suchs:
+This project simulate some common atm transactions suchs:
 - customer logging in to an ATM by providing pin
 - customer can view current balance
 - customer can deposit money
