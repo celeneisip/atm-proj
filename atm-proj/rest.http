@@ -1,0 +1,56 @@
+
+### Use to test for server connection
+GET http://localhost:3001/health HTTP/1.1
+
+
+
+### [Success]Login to get JWT. (valid data for test)
+POST http://localhost:3001/login HTTP/1.1
+Content-type: application/json
+
+{
+    "card_number": 9999777755552222,
+    "pin": 1212
+}
+
+
+
+### [Fail]Login to get JWT. (valid data for test)
+POST http://localhost:3001/login HTTP/1.1
+Content-type: application/json
+
+{
+    "card_number": 9999777755552222,
+    "pin": 1255
+}
+
+
+
+###
+GET http://localhost:3001/balance HTTP/1.1
+Content-type: application/json
+
+
+
+###
+GET http://localhost:3001/user/4 HTTP/1.1
+Content-type: application/json
+
+
+
+### Test Invalid transaction
+PUT http://localhost:3001/account/transaction HTTP/1.1
+Content-type: application/json
+
+{
+    "account_type": "checking",
+	"transaction_type": "widthraw",
+	"amount": 500
+}
+
+
+
+
+# For the request Header name just use Authorization. Place Bearer before the Token. I just tried it out and it works for me.
+
+# Authorization: Bearer TOKEN_STRING
