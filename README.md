@@ -1,4 +1,4 @@
-# atm-proj
+# Mock ATM 
 
 A simple and lightwight Restful API using Golang with Fiber Framework and JWT authentication. 
 
@@ -64,4 +64,4 @@ has a `checking` and `saving`
 there's only 2 allowed balance update transaction:`widthrawal` and `deposit`
 ```
 - this does have API for creating new account/closing account/ creating new user/logout/etc
-Tip: if your using VSCODE have plugin for http rest use the http.rest for quick
+Tip: if your using VSCODE have [plugin](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) for http rest use the http.rest for quick
