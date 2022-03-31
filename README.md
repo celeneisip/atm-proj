@@ -25,7 +25,7 @@ This project simulate some common atm transactions suchs:
 Eg
 
 
-* Once its running, you test the  listed api below
+* Once its running, you use the listed api below:
 ```
 [GET] /health 
 - returns 200 if server is running. A handy endpoint to test if main.go was run properly
@@ -59,12 +59,13 @@ Eg
 
 # Test Notes
 Test ATM account sample: 
-- Success auth is only valid for 10minutes and has no current functionality to refresh expired token
 ```
 card_number: 9999777755552222,
 pin: 1212
 has a `checking` and `saving`  
 there's only 2 allowed balance update transaction:`widthrawal` and `deposit`
 ```
+- Success auth is only valid for 10minutes and has no current functionality to refresh expired token
 - this does have API for creating new account/closing account/ creating new user/logout/etc
 Tip: if your using VSCODE have [plugin](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) for http rest use the http.rest for quick
+
