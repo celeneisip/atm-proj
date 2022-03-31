@@ -54,11 +54,14 @@ This project simulate some common atm transactions suchs:
 - sample acceptable account type(checking/saving)
 ```
 
+# Test Notes
 Test ATM account sample: 
+- Success auth is only valid for 10minutes and has no current functionality to refresh expired token
 ```
 card_number: 9999777755552222,
 pin: 1212
 has a `checking` and `saving`  
+there's only 2 allowed balance update transaction:`widthrawal` and `deposit`
 ```
-
+- this does have API for creating new account/closing account/ creating new user/logout/etc
 Tip: if your using VSCODE have plugin for http rest use the http.rest for quick
