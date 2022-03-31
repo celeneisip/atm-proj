@@ -13,7 +13,7 @@ This project simulate some common atm transactions suchs:
 ## Getting Started
 
 ### Installing
-* Make sure you have Go installed (download). Version 1.14 or higher is required.
+* Make sure you have Go installed [download](https://go.dev/dl/). Version 1.14 or higher is required.
 
 * Clone this repo
 
