@@ -26,17 +26,6 @@ Content-type: application/json
 
 
 
-###
-GET http://localhost:3001/balance HTTP/1.1
-Content-type: application/json
-
-
-
-###
-GET http://localhost:3001/user/4 HTTP/1.1
-Content-type: application/json
-
-
 
 ### Test Invalid transaction
 PUT http://localhost:3001/account/transaction HTTP/1.1
