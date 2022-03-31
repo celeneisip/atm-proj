@@ -13,19 +13,17 @@ This project simulate some common atm transactions suchs:
 ## Getting Started
 
 ### Installing
-* Make sure you have Go installed [download](https://go.dev/dl/). Version 1.14 or higher is required.
+- Make sure you have Go installed [download](https://go.dev/dl/). Version 1.14 or higher is required.
 
-* Clone this repo
+- Clone this repo-
+- #### Add sent .env in same directory folder
 
-
-### Executing program
-* Open a terminal
-* Cd to project directory and run comand ```go run main.go```
-* After you run main, wait until compile (you'll know its done once you see the fiber table that display fiber and the host url will be visible)
-Eg
-
-
-* Once its running, you use the listed api below:
+### Executing program locally
+-  Open a terminal
+-  #### Make sure sent .env is added to the same directory folder (should be same level as other files like main.go and not inside a child folder)
+-  Cd to project directory and run comand ```go run main.go```
+-  After you run main, wait until compile (you'll know its done once you see the fiber table that display fiber and the host url will be visible)
+-  Once its running, you can use the listed api below:
 ```
 [GET] /health 
 - returns 200 if server is running. A handy endpoint to test if main.go was run properly
