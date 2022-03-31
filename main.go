@@ -47,9 +47,6 @@ func main() {
 	app := fiber.New()
 	app.Use(cors.New(cors.Config{AllowCredentials: true}))
 	port := os.Getenv("PORT")
-	if port != "" {
-		port = "3001"
-	}
 
 	router.New(app, db)
 	app.Listen(":" + port)
