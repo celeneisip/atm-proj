@@ -22,6 +22,9 @@ This project simulate some common atm transactions suchs:
 * Open a terminal
 * Cd to project directory and run comand ```go run main.go```
 * After you run main, wait until compile (you'll know its done once you see the fiber table that display fiber and the host url will be visible)
+Eg
+
+
 * Once its running, you test the  listed api below
 ```
 [GET] /health 
